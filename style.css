@@ -83,10 +83,24 @@ header > h1 {
   background: #1d1919;
 }
 
+#action-message {
+  text-align: center;
+  color: white;
+  font-family: Asap, sans-serif;
+  font-size: 20px;
+}
 
-#action-message{
-    text-align: center;
-    color: white;
-    font-family: Asap, sans-serif;
-    font-size: 20px;
+.green-glow {
+  border: 4px solid #4dcc7d;
+  box-shadow: 0 0 10px #31b43a;
+}
+
+.red-glow {
+  border: 4px solid #fc121b;
+  box-shadow: 0 0 10px #d01115;
+}
+
+.gray-glow {
+  border: 4px solid #464647;
+  box-shadow: 0 0 10px #25292b;
 }
